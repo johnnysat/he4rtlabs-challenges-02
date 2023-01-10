@@ -1,3 +1,41 @@
-.logo__img {
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around
+}
+
+header .logo__img {
   width: 300px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  gap: 2rem
+}
+
+.actions__list{
+  width: 30%;
+  height: 2rem;
+  border: 1px solid #000000;
+  align-items: center;
+}
+
+.actions__list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input__hour {
+  border: 1px solid #000000;
+  align-items: center;
+  width: 30%;
 }
